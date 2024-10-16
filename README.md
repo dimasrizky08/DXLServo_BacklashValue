@@ -21,7 +21,7 @@ sudo apt update
 sudo apt install python3 python3-pip
 ```
 
-Jika sudah menginstall pip
+Jika sudah menginstall pip:
 ```
 pip install PySide6
 ```
