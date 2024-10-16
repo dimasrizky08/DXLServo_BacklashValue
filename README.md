@@ -5,7 +5,7 @@ This is a qt5 based application created by [BarelangFC](https://github.com/Barel
 - [x] Connect to multiple servos
 - [x] Read value based on servo ID
 - [x] Change angle based on input
-- [ ] Responsive GUI
+- [ ] Responsive GUI (Under development)
 
 ## Requirement
 ### 1. Dynamixel SDK
