@@ -2,21 +2,21 @@
 This is a qt5 based application created by [BarelangFC](https://github.com/BarelangFC) member which is used to determine the ADC value of the dynamixel servo backlash and convert it into a degree value.
 
 ## Feature
-- [ ] Connect to multiple servos
-- [ ] Read value based on servo ID
-- [ ] Change angle based on input
+- [x] Connect to multiple servos
+- [x] Read value based on servo ID
+- [x] Change angle based on input
 - [ ] Responsive GUI
 
 ## Requirement
 ### Dynamixel SDK
-'sudo apt update'
-'git clone https://github.com/ROBOTIS-GIT/DynamixelSDK.git'
+`sudo apt update`
+`git clone https://github.com/ROBOTIS-GIT/DynamixelSDK.git`
 
 ### Pyside6
 Jika belum install pip
-'sudo apt update'
-'sudo apt install python3 python3-pip'
+`sudo apt update`
+`sudo apt install python3 python3-pip`
 
 Jika sudah menginstall pip
-'pip install PySide6'
+`pip install PySide6`
 
