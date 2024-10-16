@@ -15,8 +15,11 @@ This is a qt5 based application created by [BarelangFC](https://github.com/Barel
 
 ### Pyside6
 Jika belum install pip
-```sudo apt update \ sudo apt install python3 python3-pip```
+
+```sudo apt update \ 
+sudo apt install python3 python3-pip```
 
 Jika sudah menginstall pip
+
 `pip install PySide6`
 
