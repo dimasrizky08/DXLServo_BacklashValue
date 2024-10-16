@@ -25,4 +25,11 @@ Jika sudah menginstall pip:
 ```
 pip install PySide6
 ```
+### 3. ttyUSB
+```
+cd DXLServo_BacklashValue
+sudo chmod 775 
+sudo usermod -aG dialout <user>
+reboot
 
+```
