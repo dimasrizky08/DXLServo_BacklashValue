@@ -9,7 +9,9 @@ This is a qt5 based application created by [BarelangFC](https://github.com/Barel
 
 ## Requirement
 ### Dynamixel SDK
-```sudo apt update git clone https://github.com/ROBOTIS-GIT/DynamixelSDK.git\ ```
+```sudo apt 
+update git clone https://github.com/ROBOTIS-GIT/DynamixelSDK.git\ 
+```
 
 ### Pyside6
 Jika belum install pip:
@@ -19,5 +21,7 @@ sudo apt install python3 python3-pip
 ```
 
 Jika sudah menginstall pip
-```pip install PySide6```
+```
+pip install PySide6
+```
 
