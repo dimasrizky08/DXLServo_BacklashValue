@@ -15,13 +15,13 @@ update git clone https://github.com/ROBOTIS-GIT/DynamixelSDK.git\
 ```
 
 ### Pyside6
-Jika belum install pip:
+> Jika belum install pip:
 ```
 sudo apt update
 sudo apt install python3 python3-pip
 ```
 
-Jika sudah menginstall pip
+> Jika sudah menginstall pip
 ```
 pip install PySide6
 ```
