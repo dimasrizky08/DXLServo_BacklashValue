@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>822</width>
+    <height>415</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>10</y>
+      <width>631</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>                                                                                    Offset                     </string>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QGroupBox" name="max">
+       <property name="title">
+        <string>              Max Backlash    </string>
+       </property>
+       <widget class="QLabel" name="maxHorn">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>70</y>
+          <width>121</width>
+          <height>121</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>Horn.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="maxServo">
+        <property name="geometry">
+         <rect>
+          <x>-20</x>
+          <y>60</y>
+          <width>241</width>
+          <height>261</height>
+         </rect>
+        </property>
+        <property name="midLineWidth">
+         <number>0</number>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>Servo.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="maxAngleText">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>40</y>
+          <width>69</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="minimum">
+         <double>-359.000000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>359.000000000000000</double>
+        </property>
+        <property name="singleStep">
+         <double>0.010000000000000</double>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="maxValueText">
+        <property name="geometry">
+         <rect>
+          <x>98</x>
+          <y>40</y>
+          <width>81</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="minimum">
+         <double>-359.000000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>359.000000000000000</double>
+        </property>
+        <property name="singleStep">
+         <double>0.010000000000000</double>
+        </property>
+       </widget>
+       <zorder>maxServo</zorder>
+       <zorder>maxHorn</zorder>
+       <zorder>maxAngleText</zorder>
+       <zorder>maxValueText</zorder>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="main">
+       <property name="title">
+        <string>                        Main     </string>
+       </property>
+       <widget class="QLabel" name="mainServo">
+        <property name="geometry">
+         <rect>
+          <x>-20</x>
+          <y>60</y>
+          <width>241</width>
+          <height>261</height>
+         </rect>
+        </property>
+        <property name="midLineWidth">
+         <number>0</number>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>Servo.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="mainAngleText">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>40</y>
+          <width>71</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="minimum">
+         <double>-359.000000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>359.000000000000000</double>
+        </property>
+        <property name="singleStep">
+         <double>0.010000000000000</double>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="mainValueText">
+        <property name="geometry">
+         <rect>
+          <x>98</x>
+          <y>40</y>
+          <width>81</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="minimum">
+         <double>-359.000000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>359.000000000000000</double>
+        </property>
+        <property name="singleStep">
+         <double>0.010000000000000</double>
+        </property>
+       </widget>
+       <widget class="QLabel" name="mainHorn">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>70</y>
+          <width>121</width>
+          <height>121</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>Horn.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="min">
+       <property name="title">
+        <string>                Min Backlash      </string>
+       </property>
+       <widget class="QLabel" name="minServo">
+        <property name="geometry">
+         <rect>
+          <x>-20</x>
+          <y>60</y>
+          <width>241</width>
+          <height>261</height>
+         </rect>
+        </property>
+        <property name="midLineWidth">
+         <number>0</number>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>Servo.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="minAngleText">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>40</y>
+          <width>71</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="minimum">
+         <double>-359.000000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>359.000000000000000</double>
+        </property>
+        <property name="singleStep">
+         <double>0.010000000000000</double>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="minValueText">
+        <property name="geometry">
+         <rect>
+          <x>98</x>
+          <y>40</y>
+          <width>81</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="minimum">
+         <double>-359.000000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>359.000000000000000</double>
+        </property>
+        <property name="singleStep">
+         <double>0.010000000000000</double>
+        </property>
+       </widget>
+       <widget class="QLabel" name="minHorn">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>70</y>
+          <width>121</width>
+          <height>121</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>Horn.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>171</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>                   Port     </string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="title">
+        <string>      ID          Degree           </string>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QSpinBox" name="servoID">
+          <property name="minimum">
+           <number>1</number>
+          </property>
+          <property name="maximum">
+           <number>20</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDoubleSpinBox" name="servoInputDeg">
+          <property name="maximum">
+           <double>359.000000000000000</double>
+          </property>
+          <property name="value">
+           <double>180.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="connectionPort"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="connectButton">
+       <property name="text">
+        <string>Connect</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="disconnectButton">
+       <property name="text">
+        <string>Disconnect</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="exitButton">
+       <property name="text">
+        <string>Exit</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>822</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
